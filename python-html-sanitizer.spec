@@ -9,7 +9,7 @@ Source0:        https://pypi.python.org/packages/source/b/html-sanitizer/html-sa
 
 BuildRequires: pkgconfig(python)
 BuildRequires: python3dist(setuptools)
-BuilsRequires: python3dist(beautifulsoup4)
+BuildRequires: python3dist(beautifulsoup4)
 BuildRequires: python3dist(lxml)
 
 Requires: python3dist(beautifulsoup4)
