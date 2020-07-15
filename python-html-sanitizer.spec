@@ -1,9 +1,11 @@
+%global debug_package %{nil}
+
 Name:           python-html-sanitizer
 Version:        1.9.1
 Release:        1
 Group:          Development/Python
 Summary:        This is a allowlist-based and very opinionated HTML sanitizer that can be used both for untrusted and trusted sources
-License:        BSD
+License:        GPL
 URL:            https://pypi.org/project/html-sanitizer/
 Source0:        https://pypi.python.org/packages/source/b/html-sanitizer/html-sanitizer-%{version}.tar.gz
 
