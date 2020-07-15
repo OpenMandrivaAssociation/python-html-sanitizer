@@ -40,4 +40,4 @@ rm -rf %{pypi_name}.egg-info
 %files
 %license LICENSE
 %doc README.rst
-#{python_sitearch}/*
+%{python_sitelib}/html_sanitizer*
