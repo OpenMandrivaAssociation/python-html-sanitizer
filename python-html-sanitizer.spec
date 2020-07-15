@@ -1,5 +1,5 @@
 Name:           python-html-sanitizer
-Version:        1.3.6
+Version:        1.9.1
 Release:        1
 Group:          Development/Python
 Summary:        a list-like type with better asymptotic performance and similar performance on small lists
