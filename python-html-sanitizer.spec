@@ -2,7 +2,7 @@
 
 Name:           python-html-sanitizer
 Version:        1.9.1
-Release:        2
+Release:        4
 Group:          Development/Python
 Summary:        This is a allowlist-based and very opinionated HTML sanitizer that can be used both for untrusted and trusted sources
 License:        GPL
@@ -40,4 +40,5 @@ rm -rf %{pypi_name}.egg-info
 %files
 %license LICENSE
 %doc README.rst
-%{python_sitelib}/html_sanitizer*
+%{python_sitelib}/html_sanitizer/
+%{python_sitelib}/html_sanitizer-%{version}-py*.*.egg-info
