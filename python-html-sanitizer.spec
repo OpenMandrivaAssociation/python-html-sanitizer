@@ -2,7 +2,7 @@
 
 Name:           python-html-sanitizer
 Version:        1.9.1
-Release:        4
+Release:        5
 Group:          Development/Python
 Summary:        This is a allowlist-based and very opinionated HTML sanitizer that can be used both for untrusted and trusted sources
 License:        GPL
