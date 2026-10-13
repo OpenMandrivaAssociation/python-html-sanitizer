@@ -3,7 +3,7 @@
 
 Name:		python-html-sanitizer
 Version:	2.6.0
-Release:	1
+Release:	2
 Group:		Development/Python
 Summary:	Allowlist-based HTML cleaner
 License:	BSD-3-Clause
@@ -12,7 +12,7 @@ Source0:	https://files.pythonhosted.org/packages/source/h/%{module}/%{oname}-%{v
 
 BuildSystem:	python
 BuildArch:	noarch
-BuildRequires:	pkgconfig(python)
+BuildRequires:	pkgconfig(python3)
 BuildRequires:	python%{pyver}dist(beautifulsoup4)
 BuildRequires:	python%{pyver}dist(hatchling)
 BuildRequires:	python%{pyver}dist(lxml)
